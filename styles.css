@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+/* Container Style */
+    .container {
+		display:flex;
+      width: 400px;
+		justify-content:center;
+      margin: 0 auto;
+      padding: 20px;
+      border: 3px solid #333;
+      border-radius: 25px;
+      text-align: center;
+		background-color:lightgray;
+    }
+
+    /* Block Styles */
+    .red, .green, .yellow {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 5px;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
